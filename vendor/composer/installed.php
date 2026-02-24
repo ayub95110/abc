@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '423cbf7aaee223a5b1df98c0b8056c00f32389e2',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '423cbf7aaee223a5b1df98c0b8056c00f32389e2',
+            'dev_requirement' => false,
+        ),
+        'phpoffice/phpexcel' => array(
+            'pretty_version' => '1.8.2',
+            'version' => '1.8.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoffice/phpexcel',
+            'aliases' => array(),
+            'reference' => '1441011fb7ecdd8cc689878f54f8b58a6805f870',
+            'dev_requirement' => false,
+        ),
+        'setasign/fpdi' => array(
+            'pretty_version' => 'v2.6.2',
+            'version' => '2.6.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../setasign/fpdi',
+            'aliases' => array(),
+            'reference' => '9e013b376939c0d4029f54150d2a16f3c67a5797',
+            'dev_requirement' => false,
+        ),
+    ),
+);
